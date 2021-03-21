@@ -1,20 +1,23 @@
+import cube from "./media/cubenew.jpg";
 import "./css/App.css";
 import { Component } from "react";
-import logo from "./logo2_0.png"
 import Nav from "./components/Nav";
-import About from "./components/About"
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
+
       <Router>
       <div className="App">
         <Nav />
         <Switch>
           <Route path = "/" exact component = {Home}></Route>
-          <Route path="/about" component = {About} />
+          <Route path="/projects" component = {Projects} />
+          <Route path = "/resume" component = {Resume}/>
         </Switch>
       </div>
       </Router>
@@ -23,9 +26,11 @@ class App extends Component {
 }
 
 const Home = () => (
-  <div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>To Keep</p>
+  <div className= "canv2">
+  <div className = "canv" style={{ backgroundImage : `url(${cube})` }}>
+        
+      
+  </div>
   </div>
 );
 

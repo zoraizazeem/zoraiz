@@ -11,6 +11,26 @@
     transform: scale(1);
   }
 }
+img {
+  /*margin-left: auto;
+  margin-right: auto;
+  display: block;  */
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+#example1{
+  padding :30px;
+}
+.canv {
+  height: 240vh;
+  margin: 0 0;
+  background-position: center;
+}
+.canv2{
+  background-color: #46c6b7;
+  height: 240vh;
+}
 
 .App {
   text-align: center;

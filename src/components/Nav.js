@@ -1,26 +1,29 @@
 import "../css/App.css";
 import { Component } from "react";
 
+
 export default class Nav extends Component {
   render() {
     return (
       <ul>
         <li>
           <a class="active" href="/">
-            Home
+            About Me
           </a>
         </li>
         <li>
-          <a href="#news">News</a>
+          <a href="projects">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="links">Links</a>
         </li>
         <li >
-          <a href="about">About</a>
+          <a href= 'resume' >Résumé</a>
         </li>
 
       </ul>
     );
   }
-}
+};
+
+
