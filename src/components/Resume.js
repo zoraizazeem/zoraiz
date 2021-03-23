@@ -7,9 +7,10 @@ import { Component } from "react";
 export default class Resume extends Component {
   render() {
     return (
+        
         <div classNmae = "canv2">
         <div  className = "canv" style={{ backgroundImage : `url(${cube})` }}>
-        
+        <div class = "leftpane">
 
         <object
         data= {cv}
@@ -28,6 +29,7 @@ export default class Resume extends Component {
 
       </object>
         
+        </div>
         </div>
         </div>
       

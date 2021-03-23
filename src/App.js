@@ -4,6 +4,7 @@ import { Component } from "react";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import ProfilePic from "./media/ZORAIZ.png";
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -26,12 +27,23 @@ class App extends Component {
 }
 
 const Home = () => (
+  
   <div className= "canv2">
-  <div className = "canv" style={{ backgroundImage : `url(${cube})` }}>
-        
-      
+    <div className = "canv" style={{ backgroundImage : `url(${cube})` }}>
+      <div class = "columns">
+        <div class = "column is-one-quarter">
+          <div class = "px-5 py-5">
+            <figure class="image is-256x256">
+              <img class="is-rounded" src= {ProfilePic}/>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  </div>
+
 );
 
 export default App;
+
+
