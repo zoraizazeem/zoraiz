@@ -29,9 +29,13 @@ export default class Nav extends Component {
         Home
       </a>
 
+      <a class="navbar-item" href = "background">
+        Background
+      </a>
       <a class="navbar-item" href = "projects">
         Projects
       </a>
+      <a class = "navbar-item"> Reading List</a>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
