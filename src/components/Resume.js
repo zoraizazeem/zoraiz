@@ -7,32 +7,32 @@ import { Component } from "react";
 export default class Resume extends Component {
   render() {
     return (
-        
-        <div classNmae = "canv2">
-        <div  className = "canv" style={{ backgroundImage : `url(${cube})` }}>
-        <div class = "leftpane">
 
-        <object
-        data= {cv}
-        type="application/pdf"
-        width="500"
-        height="678"
-      >
+      <div classNmae="canv2">
+        <div className="canv" style={{ backgroundImage: `url(${cube})` }}>
+          <div class="leftpane">
 
-        <iframe
-          src= {cv}
-          width="500"
-          height="678"
-        >
-        <p>This browser does not support PDF!</p>
-        </iframe>
+            <object
+              data={cv}
+              type="application/pdf"
+              width="500"
+              height="678"
+            >
 
-      </object>
-        
+              <iframe
+                src={cv}
+                width="500"
+                height="678"
+              >
+                <p>This browser does not support PDF!</p>
+              </iframe>
+
+            </object>
+
+          </div>
         </div>
-        </div>
-        </div>
-      
+      </div>
+
     );
   }
 }
