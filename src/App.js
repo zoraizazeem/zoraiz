@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import ProfilePic from "./media/ZORAIZ.png";
+import Background from "./components/Background";
 
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path = "/" exact component = {Home}></Route>
           <Route path="/projects" component = {Projects} />
           <Route path = "/resume" component = {Resume}/>
+          <Route path =  "/background" component = {Background}/>
         </Switch>
       </div>
       </Router>

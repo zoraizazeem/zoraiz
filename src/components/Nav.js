@@ -53,6 +53,9 @@ export default class Nav extends Component {
             Twitter
           </a>
           <a class="navbar-item">
+            Reddit
+          </a>
+          <a class="navbar-item">
             Contact Me
           </a>
           <hr class="navbar-divider"/>
@@ -85,21 +88,3 @@ export default class Nav extends Component {
 
 
 
-
-/*<ul>
-        <li>
-          <a class="active" href="/">
-            About Me
-          </a>
-        </li>
-        <li>
-          <a href="projects">Projects</a>
-        </li>
-        <li>
-          <a href="links">Links</a>
-        </li>
-        <li >
-          <a href= 'resume' >Résumé</a>
-        </li>
-
-      </ul>*/
