@@ -3,6 +3,7 @@ import { Component } from "react";
 import cube from "../media/cubenew.jpg";
 import Liverpool from "../media/LiverpoolLogo.png";
 import Leeds from "../media/LeedsLogo.png";
+import "../css/all.min.css";
 
 export default class Background extends Component {
     render() {
@@ -11,28 +12,82 @@ export default class Background extends Component {
                 <div className="canv" style={{ backgroundImage: `url(${cube})` }}>
                     <div class="container is-max-desktop" id="border">
                         <div class="tile is-ancestor">
-                            <div class="tile is-4 is-vertical is-parent">
-                                <div class="tile is-child box">
-                                    <p class="title">One</p>
-                                    <p>Lorem ipsum in ornare or vestibulum Etiam finibus odio quis feugiat facilisis.</p>
-                                </div>
-                                <div class="tile is-child box">
-                                    <p class="title">Two</p>
-                                    <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                                </div>
-                            </div>
-                            <div class="tile is-parent">
-                                <div class="tile is-child box">
-                                    <p class="title">Three</p>
-                                    <p>Lorem ipsum dolor sit amet, consit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                                    <p>Suspendisse varius ligula ina a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-                                    <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+                            <div class="tile is-child box">
+                                <div class="columns">
+                                    <div class="column is-one-fifth">
+                                        
+                                        <figure >
+                                        <h4 class="title is-4">University of Leeds</h4>
+
+                                            <a href = "https://en.wikipedia.org/wiki/University_of_Leeds">
+                                            <img src={Leeds} id="LeedsLogo" />
+                                            </a>
+                                        </figure>
+                                        <p class = "is-size-5">2021-2022     <i class="fas fa-calendar-alt"></i></p>
+                                        <p class = "is-size-5">LS2 9JT    <i class="fas fa-compass"></i></p>
+                                    </div>
+                                    <div class="column">
+                                        <p class="title"><span class="has-text-danger">MSc </span> Data Science and Analytics</p>
+
+                                        <p>Lorem ipsum in ornare or vestibulum Etiam finibus odio quis feugiat facilisis.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="container is-max-desktop" id="border">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-child box">
+                                <div class="columns">
+                                    <div class="column is-one-fifth">
+                                        <figure >
+                                        <h4 class="title is-4">University of Liverpool</h4>
+                                            <a href = "https://en.wikipedia.org/wiki/University_of_Liverpool">
+                                            
+                                            <img src={Liverpool} id="LiverpoolLogo" />
+                                            </a>
+                                        </figure>
+                                        <p class = "is-size-5">2017-2020     <i class="fas fa-calendar-alt"></i></p>
+                                        <h6 class = "subtitle is-5">L69 3BX<i class="fas fa-compass"></i></h6>
+                                    </div>
+                                    <div class="column">
+                                        <p class="title"><span class="has-text-danger">BSc (Hons)</span> Chemistry</p>
 
+                                        <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis
+                                        Lorem ipsum dolor massa sem. Etiam finibus odio quis Lorem ipsum do
+                                        lor massa sem. Etiam finibus odio quis Lorem ipsum dolor massa sem. Etiam finibus odio quis Lorem i
+                                        psum dolor massa sem. Etiam finibus odio quis Lorem ipsum dolor massa sem. Etiam finibus odio quis feu
+                                         giat facilisis.</p>
+                                    </div>
 
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container is-max-desktop" id="border">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-child box">
+                                <p class="title">Queen Elizabeth's Grammar School</p>
+                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container is-max-desktop" id="border">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-child box">
+                                <p class="title">Hollins Technology College</p>
+                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container is-max-desktop" id="border">
+                        <div class="tile is-ancestor">
+                            <div class="tile is-child box">
+                                <p class="title">Sacred Heart RC Primary School</p>
+                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
