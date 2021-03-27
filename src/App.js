@@ -5,9 +5,10 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import ProfilePic from "./media/ZORAIZ.png";
-import Background from "./components/Background";
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Education from "./components/Education";
+import Work from "./components/Work";
 
 class App extends Component {
   render() {
@@ -20,7 +21,8 @@ class App extends Component {
             <Route path="/" exact component={Home}></Route>
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
-            <Route path="/background" component={Background} />
+            <Route path="/education" component={Education} />
+            <Route path="/work" component={Work} />
           </Switch>
         </div>
       </Router>
