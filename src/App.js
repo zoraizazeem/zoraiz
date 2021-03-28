@@ -40,7 +40,11 @@ const Home = () => (
             <figure class="image is-256x256">
               <img class="is-rounded" src={ProfilePic} />
             </figure>
+
           </div>
+        </div>
+        <div class="column">
+          <p class="title">Professional In Data Science and Trained Chemist</p>
         </div>
       </div>
     </div>
