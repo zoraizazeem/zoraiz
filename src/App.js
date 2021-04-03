@@ -45,6 +45,10 @@ const Home = () => (
         </div>
         <div class="column">
           <p class="title">Professional In Data Science and Trained Chemist</p>
+          <p class="title">Intersts: Quantitative analysis, coputational simulatiytng and artificial intelligence.
+          Energy,  sustainable , renewable and economically viable.</p>
+          <p class="title">Applying physical, mathematical and statistical moxelling and understanding to complex systems, such as renewable energy and financial modelling.
+          </p>
         </div>
       </div>
     </div>
