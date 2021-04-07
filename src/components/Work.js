@@ -23,7 +23,7 @@ export default class Work extends Component {
                                                 <img src={YellowLabel} id="LeedsLogo" />
                                             </a>
                                         </figure>
-                                        <p class="is-size-5">2020-Present     <i class="fas fa-calendar-alt"></i></p>
+                                        <p class="is-size-5">2020-2021     <i class="fas fa-calendar-alt"></i></p>
                                     </div>
                                     <div class="column">
                                         <p class="title"><span class="has-text-danger">Proprietor & Co-Founder </span>  @ YellowLabelCo.</p>
@@ -67,27 +67,13 @@ export default class Work extends Component {
                     <div class="container is-max-desktop" id="border">
                         <div class="tile is-ancestor">
                             <div class="tile is-child box">
-                                <p class="title">Queen Elizabeth's Grammar School</p>
+                                <p class="title"><span class="has-text-danger">PAL Leader & Peer Mentor </span> @ University of Liverpool</p>
                                 <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="container is-max-desktop" id="border">
-                        <div class="tile is-ancestor">
-                            <div class="tile is-child box">
-                                <p class="title">Hollins Technology College</p>
-                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container is-max-desktop" id="border">
-                        <div class="tile is-ancestor">
-                            <div class="tile is-child box">
-                                <p class="title">Sacred Heart RC Primary School</p>
-                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                            </div>
-                        </div>
-                    </div>
+
+
                 </div>
             </div>
 

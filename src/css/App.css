@@ -50,6 +50,12 @@ nav {
   #LeedsLogo{
     width:25%;
   }
+#ProfPic{
+  width:50px;
+}
+#GenericLogo{
+  width: 150px;
+}
 .title{
   font-size : 28px;
 }
@@ -68,6 +74,10 @@ nav {
   #LiverpoolLogo{
     width:50%;
 
+
+  }
+  #ProfPic{
+    width:300px;
   }
   #LeedsLogo{
     width:65%;

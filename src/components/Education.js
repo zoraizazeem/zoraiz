@@ -83,14 +83,7 @@ export default class Education extends Component {
                             </div>
                         </div>
                     </div>
-                    <div class="container is-max-desktop" id="border">
-                        <div class="tile is-ancestor">
-                            <div class="tile is-child box">
-                                <p class="title">Sacred Heart RC Primary School</p>
-                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
 
