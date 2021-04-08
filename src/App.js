@@ -52,7 +52,9 @@ const Home = () => (
             <div class="tile is-ancestor">
               <div class="tile is-child box">
                 <p class="title">Professional In Data Science and Trained Chemist</p>
-                <p class="subtitle">Intersts: Quantitative analysis, coputational simulatiytng and artificial intelligence.
+                <p class="subtitle">
+                <a href = "https://twitter.com/hipyliv?lang=en">HiPy (hosted by LivIdea) Learning python and anaconda  for researchers.</a>
+                Intersts: Quantitative analysis, coputational simulatiytng and artificial intelligence.
           Energy,  sustainable , renewable and economically viable.</p>
                 <p class="subtitle">Applying physical, mathematical and statistical moxelling and understanding to complex systems, such as renewable energy and financial modelling.
                 </p>
@@ -69,10 +71,10 @@ const Home = () => (
             </p>
             <div class="columns">
               <div class="column">
-                <img  src={Github} id="GenericLogo"/>
+                <img  src={Github} id="GithubLogo"/>
               </div>
               <div class="column">
-                <img src={LinkedIn} id = "GenericLogo" />
+                <a href="https://www.linkedin.com/in/ray-azeem/"><img src={LinkedIn} id = "GenericLogo" /></a>
               </div>
               <div class="column">
                 <img src={phone} id="GenericLogo" />
