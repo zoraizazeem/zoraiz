@@ -53,7 +53,7 @@ const Home = () => (
               <div class="tile is-child box">
                 <p class="title">Professional In Data Science and Trained Chemist</p>
                 <p class="subtitle">
-                <a href = "https://twitter.com/hipyliv?lang=en">HiPy (hosted by LivIdea) Learning python and anaconda  for researchers.</a>
+                  <a href="https://twitter.com/hipyliv?lang=en">HiPy (hosted by LivIdea) Learning python and anaconda  for researchers.</a>
                 Intersts: Quantitative analysis, coputational simulatiytng and artificial intelligence.
           Energy,  sustainable , renewable and economically viable.</p>
                 <p class="subtitle">Applying physical, mathematical and statistical moxelling and understanding to complex systems, such as renewable energy and financial modelling.
@@ -69,20 +69,20 @@ const Home = () => (
                 <p class="title is-1">
                   All My Links:
             </p>
-            <div class="columns">
-              <div class="column">
-                <img  src={Github} id="GithubLogo"/>
-              </div>
-              <div class="column">
-                <a href="https://www.linkedin.com/in/ray-azeem/"><img src={LinkedIn} id = "GenericLogo" /></a>
-              </div>
-              <div class="column">
-                <img src={phone} id="GenericLogo" />
-              </div>
-              <div class="column">
-                <img src={email} id="GenericLogo" />
-            </div>
-            </div>
+                <div class="columns">
+                  <div class="column">
+                    <a href="https://github.com/zoraizazeem"><img src={Github} id="GithubLogo" /></a>
+                  </div>
+                  <div class="column">
+                    <a href="https://www.linkedin.com/in/ray-azeem/"><img src={LinkedIn} id="GenericLogo" /></a>
+                  </div>
+                  <div class="column">
+                    <img src={phone} id="GenericLogo" />
+                  </div>
+                  <div class="column">
+                    <img src={email} id="GenericLogo" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
