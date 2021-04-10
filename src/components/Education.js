@@ -55,11 +55,15 @@ export default class Education extends Component {
                                     <div class="column">
                                         <p class="title"><span class="has-text-danger">BSc (Hons)</span> Chemistry</p>
 
-                                        <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis
-                                        Lorem ipsum dolor massa sem. Etiam finibus odio quis Lorem ipsum do
-                                        lor massa sem. Etiam finibus odio quis Lorem ipsum dolor massa sem. Etiam finibus odio quis Lorem i
-                                        psum dolor massa sem. Etiam finibus odio quis Lorem ipsum dolor massa sem. Etiam finibus odio quis feu
-                                         giat facilisis.</p>
+                                        <p>1st Class
+                                        </p>
+                                        <p>
+                                            -Maths for Physicists, working knowledge statistics, series, complex manipulation.
+                                            -Maths for Quantum Mechanics. (including eigenvectors & working knowledge of linear algebra)
+                                            -Modelling molecular and energy system.
+                                            -Engineering (intro) (mass/heat transfer, fluid mechanics & project economics)
+                                            -Chemistry for electronic (transistors, LED, LCD, ITO)
+                                        </p>
                                     </div>
 
                                 </div>
