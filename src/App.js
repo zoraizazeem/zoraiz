@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Education from "./components/Education";
 import Work from "./components/Work";
 import email from "./media/email.svg";
+import ReadingList from "./components/ReadingList";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
             <Route path="/resume" component={Resume} />
             <Route path="/education" component={Education} />
             <Route path="/work" component={Work} />
+            <Route path="/readinglist" component={ReadingList}/>
           </Switch>
         </div>
       </Router>
@@ -53,7 +55,7 @@ const Home = () => (
               <div class="tile is-child box">
                 <p class="title">Professional In Data Science and Trained Chemist</p>
                 <p class="subtitle">
-                  <a href="https://twitter.com/hipyliv?lang=en">HiPy (hosted by LivIdea) Learning python and anaconda  for researchers.</a>
+                  
                 Intersts: Quantitative analysis, coputational simulatiytng and artificial intelligence.
           Energy,  sustainable , renewable and economically viable.</p>
                 <p class="subtitle">Applying physical, mathematical and statistical moxelling and understanding to complex systems, such as renewable energy and financial modelling.

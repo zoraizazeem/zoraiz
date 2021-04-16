@@ -4,6 +4,9 @@ import cube from "../media/cubenew.jpg";
 import Liverpool from "../media/LiverpoolLogo.png";
 import Leeds from "../media/LeedsLogo.png";
 import "../css/all.min.css";
+import transcript from "../media/Transcript.pdf";
+import folder from "../media/folder.svg";
+import qegs from "../media/qegs.png";
 
 export default class Education extends Component {
     render() {
@@ -30,8 +33,17 @@ export default class Education extends Component {
                                     <div class="column">
                                         <p class="title"><span class="has-text-danger">MSc </span> Data Science and Analytics</p>
 
-                                        <p>Lorem ipsum in ornare or vestibulum Etiam finibus odio quis feugiat facilisis.</p>
+                                        
+                                        <div class="level-left">
+                                            <ul class="b">
+                                                <li>Deferred entry due to the Covid-19 Pandemic</li>
+                                                <li>Computational statistics</li>
+                                                <li>Machine learning & Artificial intelligence</li>
+                                                
+                                            </ul>
+                                        </div>
                                     </div>
+                                    <div><img src={folder} title = "Transcript and Certificate" id= "MediaLogoSmall"/></div>
                                 </div>
                             </div>
                         </div>
@@ -52,41 +64,68 @@ export default class Education extends Component {
                                         {/* A link to the google maps for University of Liverpool */}
                                         <a href="https://www.google.com/maps/place/Liverpool+L69+3BX/@53.3804582,-2.978819,17z/data=!3m1!4b1!4m5!3m4!1s0x487b21233dbace2f:0x3a1c88d066f16dfa!8m2!3d53.3803315!4d-2.9764308"><p class="is-size-5">L69 3BX<i class="fas fa-compass"></i></p></a>
                                     </div>
+                                    
                                     <div class="column">
-                                        <p class="title"><span class="has-text-danger">BSc (Hons)</span> Chemistry</p>
-
-                                        <p>1st Class
-                                        </p>
-                                        <p>
-                                            -Maths for Physicists, working knowledge statistics, series, complex manipulation.
-                                            -Maths for Quantum Mechanics. (including eigenvectors & working knowledge of linear algebra)
-                                            -Modelling molecular and energy system.
-                                            -Engineering (intro) (mass/heat transfer, fluid mechanics & project economics)
-                                            -Chemistry for electronic (transistors, LED, LCD, ITO)
-                                        </p>
+                                    
+                                        <p class="title"><span class="has-text-danger">BSc (Hons)</span> Chemistry - <span class="has-text-grey">1st Class
+                                        </span> </p>
+                    
+                                        <ul class="b">
+                                            <li><a href="https://twitter.com/hipyliv?lang=en">Member of HiPy (hosted by LivIdea) Learning python and anaconda  for researchers.</a></li>
+                                            <li>Modelling molecular and energy system.</li>
+                                            <li>Maths for Physicists, working knowledge statistics, series, complex manipulation.</li>
+                                            <li>Maths for quantum mechanics. (including eigenvectors & working knowledge of linear algebra)</li>
+                                            <li>Engineering (intro) (mass/heat transfer, fluid mechanics & project economics)</li>
+                                        </ul>
+                                        
+                                        
                                     </div>
-
+                                    <div><img src={folder} title = "Transcript and Certificate" id= "MediaLogoSmall"/></div>
                                 </div>
 
                             </div>
                         </div>
                     </div>
+
                     <div class="container is-max-desktop" id="border">
                         <div class="tile is-ancestor">
                             <div class="tile is-child box">
-                                <p class="title">Queen Elizabeth's Grammar School</p>
-                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                                <div class="columns">
+                                    <div class="column is-one-fifth">
+                                        <figure >
+                                            <h4 class="title is-4">QEGS Blackburn</h4>
+                                            <a href="https://en.wikipedia.org/wiki/Queen_Elizabeth%27s_Grammar_School,_Blackburn">
+
+                                                <img src={qegs} id="LiverpoolLogo" />
+                                            </a>
+                                        </figure>
+                                        <p class="is-size-5">2015-2017    <i class="fas fa-calendar-alt"></i></p>
+                                        {/* A link to the google maps for University of Liverpool */}
+                                        <a href="https://www.google.co.uk/maps/place/Blackburn+BB2+6DF/@53.7542194,-2.4982463,17z/data=!3m1!4b1!4m5!3m4!1s0x487b9fd4c49eee83:0x741ecd62771f59d8!8m2!3d53.7533997!4d-2.4959717?hl=en"><p class="is-size-5">BB2 6DF<i class="fas fa-compass"></i></p></a>
+                                    </div>
+                                    
+                                    <div class="column">
+                                    
+                                        <p class="title"> <span class="has-text-danger">A - Levels</span> Sixth Form</p>
+                    
+                                        <ul class="b">
+                                            <li>Grade A A-Level Chemistry</li>
+                                            <li>Grade A A-Level Biology</li>
+                                            <li>Grade B A-Level Maths</li>
+                                            <li>Grade A AS-Level Physics</li>
+                                            
+                                        </ul>
+                                        
+                                        
+                                    </div>
+                                    <div><img src={folder} title = "Transcript and Certificate" id= "MediaLogoSmall"/></div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="container is-max-desktop" id="border">
-                        <div class="tile is-ancestor">
-                            <div class="tile is-child box">
-                                <p class="title">Hollins Technology College</p>
-                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                            </div>
-                        </div>
-                    </div>
+                    
+
 
                 </div>
             </div>

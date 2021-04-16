@@ -36,7 +36,7 @@ export default class Nav extends Component {
               <a class="navbar-item" href="projects">
                 Projects
               </a>
-              <a class="navbar-item"> Reading List</a>
+              <a class="navbar-item" href="readinglist"> Reading List</a>
 
 
             </div>

@@ -1,4 +1,8 @@
-
+ul.b {
+  list-style-type: square;
+  text-align: left;
+  margin-left: 30px;
+}
 
 .leftpane {
   width: 30%;
@@ -56,6 +60,10 @@ nav {
 #GenericLogo{
   width: 150px;
 }
+#MediaLogoSmall{
+  width: 50px;
+  text-align: right;
+}
 #GithubLogo{
   width: 130px;
 }
@@ -79,6 +87,7 @@ nav {
 
 
   }
+
   #ProfPic{
     width:300px;
   }
@@ -86,3 +95,4 @@ nav {
     width:65%;
   }
 }
+
