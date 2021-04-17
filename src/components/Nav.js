@@ -33,6 +33,9 @@ export default class Nav extends Component {
               <a class="navbar-item" href="work">
                 Work
               </a>
+              <a class="navbar-item" href="certifications">
+                Certifications
+              </a>
               <a class="navbar-item" href="projects">
                 Projects
               </a>

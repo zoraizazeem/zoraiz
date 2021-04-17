@@ -13,6 +13,7 @@ import Education from "./components/Education";
 import Work from "./components/Work";
 import email from "./media/email.svg";
 import ReadingList from "./components/ReadingList";
+import Certifications from "./components/Certifications";
 
 class App extends Component {
   render() {
@@ -27,7 +28,9 @@ class App extends Component {
             <Route path="/resume" component={Resume} />
             <Route path="/education" component={Education} />
             <Route path="/work" component={Work} />
-            <Route path="/readinglist" component={ReadingList}/>
+            <Route path="/readinglist" component={ReadingList} />
+            <Route path="/certifications" component={Certifications} />
+
           </Switch>
         </div>
       </Router>
@@ -55,11 +58,10 @@ const Home = () => (
               <div class="tile is-child box">
                 <p class="title">Professional In Data Science and Trained Chemist</p>
                 <p class="subtitle">
-                  
-                Intersts: Quantitative analysis, coputational simulatiytng and artificial intelligence.
-          Energy,  sustainable , renewable and economically viable.</p>
-                <p class="subtitle">Applying physical, mathematical and statistical moxelling and understanding to complex systems, such as renewable energy and financial modelling.
-                </p>
+
+                  Interests (Research): Quantitative analysis, computational simulations and artificial intelligence. Renewable and sustainable energy.</p>
+                <p class="subtitle">Work: Business intelligence and consumer data.</p>
+                <p class="subtitle">Applying physical and statistical modelling techniques to help understand to complex systems. Domain specific knowledge in energy and finance.</p>
 
               </div>
             </div>
