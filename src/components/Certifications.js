@@ -33,13 +33,16 @@ export default class Certifications extends Component {
                                     </div>
                                     <div class="column">
                                         <p class="title">Fundamentals of Machine Learning in Finance</p>
-
+                                        <div align ="left"> <h4 class="subtitle is-5"> Projects here included</h4> </div>
 
                                         <div class="level-left">
+
                                             <ul class="b">
-                                                <li>Deferred entry due to the Covid-19 Pandemic</li>
-                                                <li>Computational statistics</li>
-                                                <li>Machine learning & Artificial intelligence</li>
+                                                
+                                                <li>Random Forests And Decision Trees.</li>
+                                                <li>Eigen Portfolio Construction via PCA.</li>
+                                                <li>Data Visualisation with t-SNE.</li>
+                                                <li>Absorption via PCA.</li>
 
                                             </ul>
                                         </div>

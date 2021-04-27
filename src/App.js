@@ -60,7 +60,9 @@ const Home = () => (
                 <p class="subtitle">
 
                   Interests (Research): Quantitative analysis, computational simulations and artificial intelligence. Renewable and sustainable energy.</p>
-                <p class="subtitle">Work: Business intelligence and consumer data.</p>
+                <p class="subtitle"> professional with experience in research. Passionate about probabalistic-AI and statistical modelling. Specific interests vary (as DS can be a very broad topic) but
+                focused on renewable energy and sustainable finance.</p>
+                <p class="subtitle">Work: Business intelligence, consumer data and business valuation.</p>
                 <p class="subtitle">Applying physical and statistical modelling techniques to help understand to complex systems. Domain specific knowledge in energy and finance.</p>
 
               </div>
