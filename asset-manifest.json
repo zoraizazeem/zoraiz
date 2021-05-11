@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/zoraiz/static/css/main.203ee9a0.chunk.css",
-    "main.js": "/zoraiz/static/js/main.002e0a4c.chunk.js",
-    "main.js.map": "/zoraiz/static/js/main.002e0a4c.chunk.js.map",
+    "main.js": "/zoraiz/static/js/main.2bfb4357.chunk.js",
+    "main.js.map": "/zoraiz/static/js/main.2bfb4357.chunk.js.map",
     "runtime-main.js": "/zoraiz/static/js/runtime-main.45c4b7e4.js",
     "runtime-main.js.map": "/zoraiz/static/js/runtime-main.45c4b7e4.js.map",
-    "static/js/2.d1a33849.chunk.js": "/zoraiz/static/js/2.d1a33849.chunk.js",
-    "static/js/2.d1a33849.chunk.js.map": "/zoraiz/static/js/2.d1a33849.chunk.js.map",
+    "static/js/2.59a6103a.chunk.js": "/zoraiz/static/js/2.59a6103a.chunk.js",
+    "static/js/2.59a6103a.chunk.js.map": "/zoraiz/static/js/2.59a6103a.chunk.js.map",
     "static/js/3.ec4b389e.chunk.js": "/zoraiz/static/js/3.ec4b389e.chunk.js",
     "static/js/3.ec4b389e.chunk.js.map": "/zoraiz/static/js/3.ec4b389e.chunk.js.map",
     "index.html": "/zoraiz/index.html",
     "static/css/main.203ee9a0.chunk.css.map": "/zoraiz/static/css/main.203ee9a0.chunk.css.map",
-    "static/js/2.d1a33849.chunk.js.LICENSE.txt": "/zoraiz/static/js/2.d1a33849.chunk.js.LICENSE.txt",
+    "static/js/2.59a6103a.chunk.js.LICENSE.txt": "/zoraiz/static/js/2.59a6103a.chunk.js.LICENSE.txt",
     "static/media/IBM-Logo.133758c7.png": "/zoraiz/static/media/IBM-Logo.133758c7.png",
     "static/media/LeedsLogo.0be109d3.png": "/zoraiz/static/media/LeedsLogo.0be109d3.png",
     "static/media/LiverpoolLogo.bf8c4ae8.png": "/zoraiz/static/media/LiverpoolLogo.bf8c4ae8.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.45c4b7e4.js",
-    "static/js/2.d1a33849.chunk.js",
+    "static/js/2.59a6103a.chunk.js",
     "static/css/main.203ee9a0.chunk.css",
-    "static/js/main.002e0a4c.chunk.js"
+    "static/js/main.2bfb4357.chunk.js"
   ]
 }
