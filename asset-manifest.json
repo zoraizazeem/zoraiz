@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zoraiz/static/css/main.203ee9a0.chunk.css",
-    "main.js": "/zoraiz/static/js/main.fe41fde6.chunk.js",
-    "main.js.map": "/zoraiz/static/js/main.fe41fde6.chunk.js.map",
+    "main.js": "/zoraiz/static/js/main.76a4157e.chunk.js",
+    "main.js.map": "/zoraiz/static/js/main.76a4157e.chunk.js.map",
     "runtime-main.js": "/zoraiz/static/js/runtime-main.45c4b7e4.js",
     "runtime-main.js.map": "/zoraiz/static/js/runtime-main.45c4b7e4.js.map",
     "static/js/2.59a6103a.chunk.js": "/zoraiz/static/js/2.59a6103a.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.45c4b7e4.js",
     "static/js/2.59a6103a.chunk.js",
     "static/css/main.203ee9a0.chunk.css",
-    "static/js/main.fe41fde6.chunk.js"
+    "static/js/main.76a4157e.chunk.js"
   ]
 }
