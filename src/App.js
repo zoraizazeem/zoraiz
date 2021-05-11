@@ -8,7 +8,7 @@ import ProfilePic from "./media/ZORAIZ.png";
 import Github from "./media/github-logo.svg";
 import LinkedIn from "./media/LinkedIn.png";
 import phone from "./media/call.svg";
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import Education from "./components/Education";
 import Work from "./components/Work";
 import email from "./media/email.svg";
@@ -23,13 +23,14 @@ class App extends Component {
         <div className="App">
           <Nav />
           
-            <Route exact path="/"  component={Home}></Route>
+            
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
             <Route path="/education" component={Education} />
             <Route path="/work" component={Work} />
             <Route path="/readinglist" component={ReadingList} />
             <Route path="/certifications" component={Certifications} />
+            <Route exact path="/" component={Home}/>
 
           
         </div>

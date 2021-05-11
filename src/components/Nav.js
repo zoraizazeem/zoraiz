@@ -53,19 +53,19 @@ export default class Nav extends Component {
             <div class="navbar-start">
 
 
-              <a class="navbar-item" href="education">
+              <a class="navbar-item" href="#education">
                 Education
               </a>
-              <a class="navbar-item" href="work">
+              <a class="navbar-item" href="#work">
                 Work
               </a>
-              <a class="navbar-item" href="certifications">
+              <a class="navbar-item" href="#certifications">
                 Certifications
               </a>
-              <a class="navbar-item" href="projects">
+              <a class="navbar-item" href="#projects">
                 Projects
               </a>
-              <a class="navbar-item" href="readinglist"> Reading List</a>
+              <a class="navbar-item" href="#readinglist"> Reading List</a>
 
 
             </div>
@@ -73,7 +73,7 @@ export default class Nav extends Component {
             <div class="navbar-end">
               <div class="navbar-item">
                 <div class="buttons">
-                  <a class="button is-primary" href="resume">
+                  <a class="button is-primary" href="#resume">
                     <strong>Résumé</strong>
                   </a>
 
