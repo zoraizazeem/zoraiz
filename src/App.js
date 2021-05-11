@@ -8,7 +8,7 @@ import ProfilePic from "./media/ZORAIZ.png";
 import Github from "./media/github-logo.svg";
 import LinkedIn from "./media/LinkedIn.png";
 import phone from "./media/call.svg";
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Education from "./components/Education";
 import Work from "./components/Work";
 import email from "./media/email.svg";
@@ -19,11 +19,11 @@ class App extends Component {
   render() {
     return (
 
-      <Router>
+      <HashRouter basename ="/">
         <div className="App">
           <Nav />
-          <Switch>
-            <Route path="/" exact component={Home}></Route>
+          
+            <Route exact path="/"  component={Home}></Route>
             <Route path="/projects" component={Projects} />
             <Route path="/resume" component={Resume} />
             <Route path="/education" component={Education} />
@@ -31,9 +31,9 @@ class App extends Component {
             <Route path="/readinglist" component={ReadingList} />
             <Route path="/certifications" component={Certifications} />
 
-          </Switch>
+          
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
