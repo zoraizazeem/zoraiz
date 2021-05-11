@@ -34,7 +34,7 @@ export default class Nav extends Component {
       <div>
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div class="navbar-brand">
-            <a class="navbar-item" href="/">
+            <a class="navbar-item" href="#">
               <img src={logo} width="30" height="28"></img>
 
               <div class="pl-2" >
