@@ -57,7 +57,7 @@ export default class Nav extends Component {
                 Education
               </a>
               <a class="navbar-item" href="#work">
-                Work
+                Experiences
               </a>
               <a class="navbar-item" href="#certifications">
                 Certifications

@@ -4,9 +4,10 @@ import cube from "../media/cubenew.jpg";
 import Liverpool from "../media/LiverpoolLogo.png";
 import Leeds from "../media/LeedsLogo.png";
 import "../css/all.min.css";
-import transcript from "../media/Transcript.pdf";
+import certifications from "../media/merged.pdf"
 import folder from "../media/folder.svg";
 import qegs from "../media/qegs.png";
+
 
 export default class Education extends Component {
     render() {
@@ -80,7 +81,7 @@ export default class Education extends Component {
 
 
                                     </div>
-                                    <div><img src={folder} title="Transcript and Certificate" id="MediaLogoSmall" /></div>
+                                    <div ><a href ={certifications} ><img src={folder} title="Transcript and Certificate" id="MediaLogoSmall" /></a></div>
                                 </div>
 
                             </div>
