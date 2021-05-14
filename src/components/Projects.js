@@ -7,7 +7,9 @@ export default class Projects extends Component {
     return (
       <div className='canv2'>
 
-        <div className='canv' style={{ backgroundImage: `url(${cube})` }}></div>
+        <div className='canv' style={{ backgroundImage: `url(${cube})` }}>
+          see blog at : https://zoraizazeem.github.io/blog/
+        </div>
       </div>
     )
   }

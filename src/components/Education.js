@@ -77,11 +77,13 @@ export default class Education extends Component {
                                             <li>Maths for Physicists, working knowledge statistics, series, complex manipulation.</li>
                                             <li>Maths for quantum mechanics. (including eigenvectors & working knowledge of linear algebra)</li>
                                             <li>Engineering (intro) (mass/heat transfer, fluid mechanics & project economics)</li>
+                                            <li>Dissertation title : <a href="https://www.dropbox.com/s/0rh4c4ffol0hsx2/CHEM356Dissertation.pdf?dl=0">Synthesis of 3-Hexylthiophene, Using a Ni(dppe)Cl2 Catalyst.
+</a></li>
                                         </ul>
 
 
                                     </div>
-                                    <div ><a href ={certifications} ><img src={folder} title="Transcript and Certificate" id="MediaLogoSmall" /></a></div>
+                                    <div ><a href={certifications} ><img src={folder} title="Transcript and Certificate" id="MediaLogoSmall" /></a></div>
                                 </div>
 
                             </div>

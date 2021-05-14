@@ -15,67 +15,30 @@ export default class ReadingList extends Component {
                         <div class="tile is-ancestor">
                             <div class="tile is-child box">
                                 <div class="columns">
-                                    <div class="column is-one-fifth">
 
-                                        <figure >
-                                            <h4 class="title is-4">YellowLabelCo.</h4>
-                                            <a href="https://www.ebay.co.uk/usr/yellowlabel3">
-                                                <img src={YellowLabel} id="LeedsLogo" />
-                                            </a>
-                                        </figure>
-                                        <p class="is-size-5">2020-2021     <i class="fas fa-calendar-alt"></i></p>
-                                    </div>
                                     <div class="column">
-                                        <p class="title"><span class="has-text-danger">Proprietor & Co-Founder </span>  @ YellowLabelCo.</p>
+                                        <p class="title"><span class="has-text-danger">Deep Learning</span>  by Aaron Courville, Ian Goodfellow, and Yoshua Bengio</p>
 
-                                        <p>Lorem ipsum in ornare or vestibulum Etiam finibus odio quis feugiat facilisis.</p>
+                                        <p>I consider this the bible for anyone who wants to sink into "real" machine learning.
+                                        I saw myself reaching into the notorious "tutorial hell", and wanting to see the real gears of deep learning research.
+                                        This book requires no other knowledge (aside from basic undergraduate mathematics and infinitesimal calculus).
+                                        For myself the first couple chapters were a nice refresher on linear algebra and probability theory.
+                                        This book illustrated the mathematics behind auto encoders, CNNs, optimisation etc. Goodfelow et al work through each topic
+                                        methodically and from the raw basics making it an exceptionally easy read. This book also introduced me to the interesting research
+                                        behind the GANNs, highly recommend.
+                                        </p>
+                                        Rating : <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container is-max-desktop" id="border">
-                        <div class="tile is-ancestor">
-                            <div class="tile is-child box">
-                                <div class="columns">
-                                    <div class="column is-one-fifth">
-                                        <figure >
-                                            <h4 class="title is-4">XJTLU</h4>
-                                            <a href="https://en.wikipedia.org/wiki/Xi'an_Jiaotong-Liverpool_University">
-
-                                                <img src={XJTLU} id="LiverpoolLogo" />
-                                            </a>
-                                        </figure>
-                                        <p class="is-size-5">2019     <i class="fas fa-calendar-alt"></i></p>
-                                        <h6 class="subtitle is-5">L69 3BX<i class="fas fa-compass"></i></h6>
-                                    </div>
-                                    <div class="column">
-                                        <p class="title"><span class="has-text-danger">Researcher</span> @ XJTLU</p>
-
-                                        <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis
-                                        Lorem ipsum dolor massa sem. Etiam finibus odio quis Lorem ipsum do
-                                        lor massa sem. Etiam finibus odio quis Lorem ipsum dolor massa sem. Etiam finibus odio quis Lorem i
-                                        psum dolor massa sem. Etiam finibus odio quis Lorem ipsum dolor massa sem. Etiam finibus odio quis feu
-                                         giat facilisis.</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container is-max-desktop" id="border">
-                        <div class="tile is-ancestor">
-                            <div class="tile is-child box">
-                                <p class="title"><span class="has-text-danger">PAL Leader & Peer Mentor </span> @ University of Liverpool</p>
-                                <p>Lorem ipsum dolor massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </div>
+
+
             </div>
+
 
         );
     }
