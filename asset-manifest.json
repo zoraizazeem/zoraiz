@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/zoraiz/static/css/main.203ee9a0.chunk.css",
-    "main.js": "/zoraiz/static/js/main.76a4157e.chunk.js",
-    "main.js.map": "/zoraiz/static/js/main.76a4157e.chunk.js.map",
+    "main.js": "/zoraiz/static/js/main.691ce45c.chunk.js",
+    "main.js.map": "/zoraiz/static/js/main.691ce45c.chunk.js.map",
     "runtime-main.js": "/zoraiz/static/js/runtime-main.45c4b7e4.js",
     "runtime-main.js.map": "/zoraiz/static/js/runtime-main.45c4b7e4.js.map",
     "static/js/2.59a6103a.chunk.js": "/zoraiz/static/js/2.59a6103a.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/MYCV.bbe24b39.pdf": "/zoraiz/static/media/MYCV.bbe24b39.pdf",
     "static/media/NYULogo.bcf1cd3c.jpg": "/zoraiz/static/media/NYULogo.bcf1cd3c.jpg",
     "static/media/Transcript.8bb77631.pdf": "/zoraiz/static/media/Transcript.8bb77631.pdf",
+    "static/media/UniGron.78049ac6.png": "/zoraiz/static/media/UniGron.78049ac6.png",
     "static/media/XJTLU.924b4db2.jpeg": "/zoraiz/static/media/XJTLU.924b4db2.jpeg",
     "static/media/ZORAIZ.65a18b05.png": "/zoraiz/static/media/ZORAIZ.65a18b05.png",
     "static/media/brains.39846d7e.ico": "/zoraiz/static/media/brains.39846d7e.ico",
@@ -27,6 +28,7 @@
     "static/media/all.min.css": "/zoraiz/static/media/fa-solid-900.efbd5d20.eot",
     "static/media/folder.2ebed1e9.svg": "/zoraiz/static/media/folder.2ebed1e9.svg",
     "static/media/github-logo.d1bb13ce.svg": "/zoraiz/static/media/github-logo.d1bb13ce.svg",
+    "static/media/merged.044e4074.pdf": "/zoraiz/static/media/merged.044e4074.pdf",
     "static/media/newyl.c21c3b3a.jpg": "/zoraiz/static/media/newyl.c21c3b3a.jpg",
     "static/media/qegs.ff3c5b34.png": "/zoraiz/static/media/qegs.ff3c5b34.png"
   },
@@ -34,6 +36,6 @@
     "static/js/runtime-main.45c4b7e4.js",
     "static/js/2.59a6103a.chunk.js",
     "static/css/main.203ee9a0.chunk.css",
-    "static/js/main.76a4157e.chunk.js"
+    "static/js/main.691ce45c.chunk.js"
   ]
 }
