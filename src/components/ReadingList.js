@@ -22,10 +22,10 @@ export default class ReadingList extends Component {
                                                 <p class="title"><span class="has-text-danger">Deep Learning</span>  by Aaron Courville, Ian Goodfellow, and Yoshua Bengio</p>
 
                                                 <p>I consider this the bible for anyone who wants to sink into machine learning.
-                                                I saw myself reaching into the notorious "tutorial hell", and wanting to see the real gears of deep learning research.
+                                                I saw myself reaching the notorious "tutorial hell", and wanting to see the real gears of deep learning research.
                                                 This book requires no other knowledge (aside from basic undergraduate mathematics and infinitesimal calculus).
                                                 For myself the first couple chapters were a nice refresher on linear algebra and probability theory.
-                                                This book illustrated the mathematics behind auto encoders, CNNs, optimisation etc. Goodfelow et al work through each topic
+                                                This book illustrated the mathematics behind auto encoders, CNNs, optimisation etc. Goodfellow et al work through each topic
                                                 methodically and from the raw basics making it an exceptionally easy read. This book also introduced me to the interesting research
                                                 behind the GANNs, highly recommend.
                                                 </p>

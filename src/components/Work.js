@@ -115,7 +115,7 @@ export default class Work extends Component {
                                                     <hr />
                                                     Some responsibilities included:
                                                     <ul class="b">
-                                                        <li>Collaborating with other scientists investigating the same process. </li>
+                                                        <li>Collaborating with other scientists. </li>
                                                         <li>Communicating with and presenting to a research group.</li>
                                                         <li>Investigating a physical process and reporting findings in a dissertation.</li>
 
@@ -137,7 +137,7 @@ export default class Work extends Component {
 
                                             <li>Peer Assisted Learning: Leading tutorials arranged to help underclassman with undergraduate chemistry.</li>
                                             <li>Peer Mentor: Providing guidance and support to other students struggling with their work load and mental health etc.</li>
-                                            <li>Casual Worker (paid position): Greeter for physial science departments for various events (open days etc.)</li>
+                                            <li>Casual Worker (paid position): Greeter for physical sciences department for various events (open days etc.)</li>
 
 
                                         </ul>
