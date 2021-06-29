@@ -112,12 +112,12 @@ const Home = () => (
                       <div class="column">
                         <a href="https://www.linkedin.com/in/ray-azeem/"><img src={LinkedIn} id="GenericLogo" /></a>
                       </div>
-                      <div class="column">
+                      {/*<div class="column">-->
                         <img src={phone} id="GenericLogo" />
                       </div>
                       <div class="column">
                         <img src={email} id="GenericLogo" />
-                      </div>
+</div>*/}
                     </div>
                   </div>
                 </div>

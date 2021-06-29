@@ -6,7 +6,8 @@ import YellowLabel from "../media/newyl.jpg";
 import "../css/all.min.css";
 import XJTLU from "../media/XJTLU.jpeg";
 import bulma from '../media/bulma.png'
-import react from '../media/react.png'
+import react from '../media/react.png';
+import ebay from '../media/finalscreenshot.png';
 
 export default class Work extends Component {
     render() {
@@ -35,7 +36,7 @@ export default class Work extends Component {
                                                 <ul class="b">
 
                                                     <li>We are an e-commerce brand providing fabric accessories (principally reusable facemasks).</li>
-                                                    <li>You can see our stores on <a href="https://www.etsy.com/uk/shop/YellowLabelCo">Etsy</a> & <a href="https://www.ebay.co.uk/usr/yellowlabel3">eBay</a>. (5 star rated and 99.8% positive feedback).</li>
+                                                    <li>You can see our stores on <a href="https://www.etsy.com/uk/shop/YellowLabelCo">Etsy</a> & <a href={ebay}>eBay</a>. (5 star rated and 99.8% positive feedback).</li>
                                                     <li>Celebrating £50,000 p.a. revenue.</li>
                                                     <hr />
                                                     Some responsibilities included:
@@ -148,11 +149,7 @@ export default class Work extends Component {
                         </div>
                     </div>
                 </div>
-                <footer id="footer">
-                    <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
-          </p>
 
-                </footer>
             </div>
 
         );
