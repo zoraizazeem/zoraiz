@@ -7,11 +7,9 @@ import Resume from "./components/Resume";
 import ProfilePic from "./media/ZORAIZ.png";
 import Github from "./media/github-logo.svg";
 import LinkedIn from "./media/LinkedIn.png";
-import phone from "./media/call.svg";
 import { HashRouter, Route, Link } from 'react-router-dom';
 import Education from "./components/Education";
 import Work from "./components/Work";
-import email from "./media/email.svg";
 import ReadingList from "./components/ReadingList";
 import Certifications from "./components/Certifications";
 import bulma from './media/bulma.png';
@@ -81,7 +79,7 @@ const Home = () => (
                     <p class="subtitle has-text-grey">
                       Experience in research and business.</p>
                     <p class="subtitle">  My passions are in probabalistic-AI and statistical modelling. Specific interests in
-                    energy and finance.</p>
+                      energy and finance.</p>
                     <p class="subtitle">Strengths: Quantitative analysis, software and database development. Business intelligence, consumer data and business valuation. Data visualisation, pattern recognition and machine learning.</p>
 
 
@@ -104,7 +102,7 @@ const Home = () => (
 
                     <p class="title is-3">
                       All My Links:
-                </p>
+                    </p>
                     <div class="columns">
                       <div class="column">
                         <a href="https://github.com/zoraizazeem"><img src={Github} id="GithubLogo" /></a>
@@ -130,11 +128,12 @@ const Home = () => (
 
       </div>
     </div>
-    <footer id="footer">
-      <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
+    <footer class="footer">
+                    <div class="content has-text-centered">
+                        <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
           </p>
-
-    </footer>
+                    </div>
+                </footer>
   </div>
 );
 

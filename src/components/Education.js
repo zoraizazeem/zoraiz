@@ -11,6 +11,7 @@ import bulma from '../media/bulma.png';
 import react from '../media/react.png';
 
 
+
 export default class Education extends Component {
     render() {
         return (
@@ -82,7 +83,7 @@ export default class Education extends Component {
                                                     <li>Maths for quantum mechanics. (including eigenvectors & working knowledge of linear algebra)</li>
                                                     <li>Engineering (intro) (mass/heat transfer, fluid mechanics & project economics)</li>
                                                     <li>Dissertation title : <a href="https://www.dropbox.com/s/0rh4c4ffol0hsx2/CHEM356Dissertation.pdf?dl=0">Synthesis of 3-Hexylthiophene, Using a Ni(dppe)Cl2 Catalyst.
-        </a></li>
+                                                    </a></li>
                                                 </ul>
 
 
@@ -141,11 +142,14 @@ export default class Education extends Component {
                         </div>
                     </div>
                 </div>
-                <footer id="footer">
-                    <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
+                <footer class="footer">
+                    <div class="content has-text-centered">
+                        <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
           </p>
+                    </div>
                 </footer>
             </div>
+
         );
     }
 }
