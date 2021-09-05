@@ -6,6 +6,11 @@
 ![alt text](https://bulma.io/images/bulma-logo.png "Bulma")
 
 ## To Do:
+[x] haiku
+[] add skills, programming languages
+[] update experience and education
+[] remove cv section and replace with contact area to get more update resume.
+
 
 
 
