@@ -77,15 +77,13 @@ const Home = () => (
 
                 <div class="tile is-ancestor">
                   <div class="tile is-child box">
-                    <p class="title">Professional In Data Science and Trained Chemist</p>
-                    <p class="subtitle has-text-grey">
-                      Experience in research and business.</p>
-                    <p class="subtitle">  My passions are in probabalistic-AI and statistical modelling. <br/>  But this haiku describes it better: </p>
-                    <p class="subtitle"> <i> 
-                      Studied chem and maths, <br/>
-                      programmed because it was fun,  <br/>
-                      done it ever since. 
-                     </i></p>
+
+                    <p class="subtitle">  My passions are in probabalistic-AI and statistical modelling. <br />  But this haiku describes it better: </p>
+                    <p class="subtitle"> <i>
+                      Studied chem and maths, <br />
+                      programmed because it was fun,  <br />
+                      done it ever since.
+                    </i></p>
 
 
                   </div>
@@ -118,7 +116,7 @@ const Home = () => (
                       <div class="column">
                         <a href="https://app.codesignal.com/profile/zoraizazeem"><img src={codesignal} id="GenericLogo" /></a>
                       </div>
-                      
+
 
                       {/*<div class="column">-->
                         <img src={phone} id="GenericLogo" />
