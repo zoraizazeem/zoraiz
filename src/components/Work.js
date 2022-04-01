@@ -3,6 +3,7 @@ import { Component } from "react";
 import cube from "../media/cubenew.jpg";
 import UniGron from "../media/UniGron.png";
 import YellowLabel from "../media/newyl.jpg";
+import AAK from '../media/AAK.jpeg';
 import "../css/all.min.css";
 import XJTLU from "../media/XJTLU.jpeg";
 import bulma from '../media/bulma.png'
@@ -16,6 +17,33 @@ export default class Work extends Component {
                 <div id="content-wrap">
                     <div className="canv2">
                         <div className="canv" style={{ backgroundImage: `url(${cube})` }}>
+                            <div class="container is-max-desktop" id="border">
+                                <div class="tile is-ancestor">
+                                    <div class="tile is-child box">
+                                        <div class="columns">
+                                            <div class="column is-one-fifth">
+
+                                                <figure >
+                                                    <h4 class="title is-4">AAK Telescience.</h4>
+                                                    <a href="https://www.aaktelescience.com/home">
+                                                        <img src={AAK} id="LeedsLogo" />
+                                                    </a>
+                                                </figure>
+                                                <p class="is-size-5">2021     <i class="fas fa-calendar-alt"></i></p>
+                                            </div>
+                                            <div class="column">
+                                                <p class="title"><span class="has-text-danger">Data Science Consultant </span>  @ AAK-Telescience.</p>
+
+                                                <ul class="b">
+
+                                                    <li>Developing data structure/taxonomy, for use by other developers.</li>
+                                                    <li>Clear documentation with respect to the relevant stakeholders.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="container is-max-desktop" id="border">
                                 <div class="tile is-ancestor">
                                     <div class="tile is-child box">
@@ -37,7 +65,7 @@ export default class Work extends Component {
 
                                                     <li>We are an e-commerce brand providing fabric accessories (principally reusable facemasks).</li>
                                                     <li>You can see our stores on <a href="https://www.etsy.com/uk/shop/YellowLabelCo">Etsy</a> & <a href={ebay}>eBay</a>. (5 star rated and 99.8% positive feedback).</li>
-                                                    <li>Celebrating £50,000 p.a. revenue.</li>
+
                                                     <hr />
                                                     Some responsibilities included:
                                                     <ul class="b">
@@ -110,7 +138,7 @@ export default class Work extends Component {
                                                 <p class="title"><span class="has-text-danger">Researcher</span> @ XJTLU</p>
 
                                                 <ul class="b">
-                                                    <li>Research on a photocatalytic (a reaction catalysed by light) process to produce hydrogen, principally for hydrogen fuel.</li>
+                                                    <li>Research on a photocatalytic process to produce hydrogen, principally for hydrogen fuel.</li>
                                                     <li>Dissertation Title: <a href="https://www.dropbox.com/s/127s5noila7rd3q/Dissertation.pdf?dl=0">Ni/Ni(OH)2 Composites for Solar-to-Hydrogen: Synthesis, Characterization and System Optimization</a></li>
                                                     <hr />
                                                     Some responsibilities included:
@@ -152,7 +180,7 @@ export default class Work extends Component {
                 <footer class="footer">
                     <div class="content has-text-centered">
                         <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
-          </p>
+                        </p>
                     </div>
                 </footer>
             </div>

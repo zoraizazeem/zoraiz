@@ -36,11 +36,11 @@ export default class Resume extends Component {
           </div>
         </div>
         <footer class="footer">
-                    <div class="content has-text-centered">
-                        <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
-          </p>
-                    </div>
-                </footer>
+          <div class="content has-text-centered">
+            <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
+            </p>
+          </div>
+        </footer>
       </div>
 
     );

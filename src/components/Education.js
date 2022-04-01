@@ -42,9 +42,8 @@ export default class Education extends Component {
 
                                                 <div class="level-left">
                                                     <ul class="b">
-                                                        <li>Deferred entry due to the Covid-19 Pandemic</li>
-                                                        <li>Computational statistics</li>
-                                                        <li>Machine learning & Artificial intelligence</li>
+                                                        <li>Courses studied, in no particular order:</li>
+                                                        <li>AI, Mathematical Logic, Statistical Theory, Multivariate methods, Statistical Learning.</li>
 
                                                     </ul>
                                                 </div>
@@ -77,11 +76,8 @@ export default class Education extends Component {
                                                 </span> </p>
 
                                                 <ul class="b">
-                                                    <li><a href="https://twitter.com/hipyliv?lang=en">Member of HiPy (hosted by LivIdea)</a> Learning python and anaconda  for researchers.</li>
-                                                    <li>Modelling molecular and energy system.</li>
-                                                    <li>Maths for Physicists, working knowledge statistics, series, complex manipulation.</li>
-                                                    <li>Maths for quantum mechanics. (including eigenvectors & working knowledge of linear algebra)</li>
-                                                    <li>Engineering (intro) (mass/heat transfer, fluid mechanics & project economics)</li>
+                                                    <li>Studied fundamentals of organic, inorganic, physical and experimental chemistry, for three years.</li>
+                                                    <li>Other interesting subjects include: Quantum mechanics, electrochemistry, material science and group theory.</li>
                                                     <li>Dissertation title : <a href="https://www.dropbox.com/s/0rh4c4ffol0hsx2/CHEM356Dissertation.pdf?dl=0">Synthesis of 3-Hexylthiophene, Using a Ni(dppe)Cl2 Catalyst.
                                                     </a></li>
                                                 </ul>
@@ -117,13 +113,10 @@ export default class Education extends Component {
                                                 <p class="title"> <span class="has-text-danger">A - Levels</span> Sixth Form</p>
 
                                                 <ul class="b">
-                                                    <li>Grade A A-Level Chemistry</li>
-                                                    <li>Grade A A-Level Biology</li>
-                                                    <li>Grade B A-Level Maths</li>
-                                                    <li>Grade A AS-Level Physics</li>
-                                                    <li>AG Campbell Prize for Mathematics (best performance within college for Mathematics)</li>
-                                                    <li>Allan Earle Prize for Chemistry (best performance within college for Chemistry)</li>
-
+                                                    <li>AG Campbell Prize for Mathematics </li>
+                                                    <li>Allan Earle Prize for Chemistry </li>
+                                                    <li>Joseph Metcalf Prize for Biochemistry</li>
+                                                    <li>Prize for Attainment at AS-level</li>
 
                                                 </ul>
 
@@ -145,7 +138,7 @@ export default class Education extends Component {
                 <footer class="footer">
                     <div class="content has-text-centered">
                         <p class="subtitle">This webiste was built by me, using React <img src={react} id="footerpics"></img> and Bulma CSS <img src={bulma} id="footerpics"></img>.
-          </p>
+                        </p>
                     </div>
                 </footer>
             </div>

@@ -78,7 +78,7 @@ const Home = () => (
                 <div class="tile is-ancestor">
                   <div class="tile is-child box">
 
-                    <p class="subtitle">  My passions are in probabalistic-AI and statistical modelling. <br />  But this haiku describes it better: </p>
+                    <p class="subtitle">  My passions are AI and statistical modelling. <br />  But this haiku describes me better: </p>
                     <p class="subtitle"> <i>
                       Studied chem and maths, <br />
                       programmed because it was fun,  <br />
