@@ -1,6 +1,8 @@
 import cube from "./media/cubenew.jpg";
 import "./css/App.css";
 import { Component } from "react";
+import ReactGA from 'react-ga';
+
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
@@ -18,6 +20,15 @@ import codesignal from './media/codesignal.jpeg';
 import love from './media/love.png';
 
 class App extends Component {
+
+  setGA = () => {
+    ReactGA.initialize( 'G-SF7D2T8RXJ' );
+    ReactGA.pageview( 'Init page view' );
+  };
+  componentDidMount() {
+    this.setGA();
+  }
+
   render() {
     return (
 
