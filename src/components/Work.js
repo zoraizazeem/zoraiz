@@ -4,7 +4,7 @@ import cube from "../media/cubenew.jpg";
 import UniGron from "../media/UniGron.png";
 import YellowLabel from "../media/newyl.jpg";
 import AAK from '../media/AAK.jpeg';
-import Acuity from '../media/acuity.jpeg';
+//import Acuity from '../media/acuity.jpeg';
 import "../css/all.min.css";
 import XJTLU from "../media/XJTLU.jpeg";
 import bulma from '../media/bulma.png'
@@ -18,38 +18,7 @@ export default class Work extends Component {
                 <div id="content-wrap">
                     <div className="canv2">
                         <div className="canv" style={{ backgroundImage: `url(${cube})` }}>
-                            <div class="container is-max-desktop" id="border">
-                                <div class="tile is-ancestor">
-                                    <div class="tile is-child box">
-                                        <div class="columns">
-                                            <div class="column is-one-fifth">
 
-                                                <figure >
-                                                    <h4 class="title is-4">Acuity Research & Practice Ltd</h4>
-                                                    <a href="https://www.aaktelescience.com/home">
-                                                        <img src={Acuity} id="LeedsLogo" />
-                                                    </a>
-                                                </figure>
-                                                <p class="is-size-5">2023     <i class="fas fa-calendar-alt"></i></p>
-                                            </div>
-                                            <div class="column">
-                                                <p class="title"><span class="has-text-danger">Data Analyst </span>  @ Acuity Research and Practice Ltd.</p>
-
-                                                <ul class="b">
-
-                                                    <li>Writing insightful reports, using statistical techniques (R) and text analytics
-                                                        (Python) to provide value to clients.</li>
-                                                    <li>Proposal writing for data science projects, managing timelines and stages of
-                                                        development.</li>
-                                                    <li>Database management (Azure) and use of PowerBI for internal
-                                                        processes.</li>
-                                                    <li>CRM co-ordination and research (Microsoft Dynamics and Salesforce)</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="container is-max-desktop" id="border">
                                 <div class="tile is-ancestor">
                                     <div class="tile is-child box">

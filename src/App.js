@@ -6,7 +6,7 @@ import { Component } from "react";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import ProfilePic from "./media/ZORAIZ.png";
+//import ProfilePic from "./media/ZORAIZ.png";
 import Github from "./media/github-logo.svg";
 import LinkedIn from "./media/LinkedIn.png";
 import { HashRouter, Route, Link } from 'react-router-dom';
@@ -52,9 +52,9 @@ const Home = () => (
           <div class="columns">
             <div class="column is-one-quarter">
               <div class="px-5 py-5">
-                <figure class="image is-256x256">
+                {/*<figure class="image is-256x256">
                   <img src={ProfilePic} id="ProfPic" />
-                </figure>
+</figure>*/}
 
               </div>
               <div class="container is-max-desktop" id="border">
@@ -92,7 +92,7 @@ const Home = () => (
                   </div>
                 </div>
               </div>
-              <div class="container is-max-desktop" id="border">
+              {/*<div class="container is-max-desktop" id="border">
                 <div class="tile is-ancestor">
                   <div class="tile is-child box">
 
@@ -100,7 +100,7 @@ const Home = () => (
 
                   </div>
                 </div>
-              </div>
+</div>*/}
 
               <div class="container is-max-desktop" id="border">
                 <div class="tile is-ancestor">
