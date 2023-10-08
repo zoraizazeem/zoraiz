@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dc2b022e.chunk.css",
-    "main.js": "/static/js/main.cbe4ff5e.chunk.js",
-    "main.js.map": "/static/js/main.cbe4ff5e.chunk.js.map",
+    "main.js": "/static/js/main.bc5bddee.chunk.js",
+    "main.js.map": "/static/js/main.bc5bddee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.895aee5d.js",
     "runtime-main.js.map": "/static/js/runtime-main.895aee5d.js.map",
     "static/js/2.59a6103a.chunk.js": "/static/js/2.59a6103a.chunk.js",
@@ -19,7 +19,6 @@
     "static/media/NYULogo.bcf1cd3c.jpg": "/static/media/NYULogo.bcf1cd3c.jpg",
     "static/media/UniGron.78049ac6.png": "/static/media/UniGron.78049ac6.png",
     "static/media/XJTLU.924b4db2.jpeg": "/static/media/XJTLU.924b4db2.jpeg",
-    "static/media/ZORAIZ.e64c0378.png": "/static/media/ZORAIZ.e64c0378.png",
     "static/media/brains.39846d7e.ico": "/static/media/brains.39846d7e.ico",
     "static/media/bulma.f4822b51.png": "/static/media/bulma.f4822b51.png",
     "static/media/codesignal.7d06dce8.jpeg": "/static/media/codesignal.7d06dce8.jpeg",
@@ -37,6 +36,6 @@
     "static/js/runtime-main.895aee5d.js",
     "static/js/2.59a6103a.chunk.js",
     "static/css/main.dc2b022e.chunk.css",
-    "static/js/main.cbe4ff5e.chunk.js"
+    "static/js/main.bc5bddee.chunk.js"
   ]
 }
